@@ -7,17 +7,15 @@ import os
 
 
 
-# BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-# TEMPLATES = [
-#     {
-#         "DIRS": [
-#             os.path.join(BASE_DIR, "templates/emails/"),
-#         ],
-#     }
-# ]
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+TEMPLATES = [
+    {
+        "DIRS": [
+            os.path.join(BASE_DIR, "templates/emails/"),
+        ],
+    }
+]
 
 setup(
     name = 'taiga-email-overrides',
