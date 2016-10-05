@@ -16,10 +16,12 @@ import os
 #         ],
 #     }
 # ]
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 setup(
     name = 'taiga-email-overrides',
-    version = ":versiontools:taiga_contrib_slack:",
+    version = ":versiontools:32:",
     description = "The Taiga plugin for custom templates",
     long_description = "",
     keywords = 'taiga, Email, integration',
