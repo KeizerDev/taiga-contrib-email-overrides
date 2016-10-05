@@ -21,7 +21,7 @@ import os
 
 setup(
     name = 'taiga-email-overrides',
-    version = ":versiontools:32:",
+    version = ":versiontools:taiga_email_overrides:",
     description = "The Taiga plugin for custom templates",
     long_description = "",
     keywords = 'taiga, Email, integration',
