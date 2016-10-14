@@ -18,14 +18,14 @@ import os
 # ]
 
 setup(
-    name = 'taiga_email_overrides',
+    name = 'taiga-email-overrides',
     version = ":versiontools:email_overriders:",
     description = "The Taiga plugin for custom templates",
     long_description = "",
     keywords = 'taiga, Email, integration',
     author = 'Studiofonkel',
     author_email = 'info@studiofonkel.nl',
-    url = 'https://github.com/taigaio/taiga-contrib-slack',
+    url = 'https://github.com/studio-fonkel/taiga-email-overrides',
     license = '',
     include_package_data = True,
     packages = find_packages(),
