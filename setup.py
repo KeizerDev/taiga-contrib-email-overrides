@@ -7,19 +7,19 @@ import os
 
 
 
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+# BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-TEMPLATES = [
-    {
-        "DIRS": [
-            os.path.join(BASE_DIR, "templates/emails/"),
-        ],
-    }
-]
+# TEMPLATES = [
+#     {
+#         "DIRS": [
+#             os.path.join(BASE_DIR, "templates/emails/"),
+#         ],
+#     }
+# ]
 
 setup(
     name = 'taiga-email-overrides',
-    version = ":versiontools:taiga_email_overrides:",
+    version = ":versiontools:email_overriders:",
     description = "The Taiga plugin for custom templates",
     long_description = "",
     keywords = 'taiga, Email, integration',
